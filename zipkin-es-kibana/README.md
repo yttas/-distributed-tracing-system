@@ -1,6 +1,7 @@
 
 一  ~~~~~~~~~~~~~~~~~~~~~~~~~
-zipkin 的源码Git:https://github.com/openzipkin/zipkin
+zipkin 
+源码Git:https://github.com/openzipkin/zipkin
 
 1.zipkin的下载
 zipkin的使用： curl -sSL https://zipkin.io/quickstart.sh | bash -s 
