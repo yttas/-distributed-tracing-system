@@ -41,3 +41,5 @@ STORAGE_TYPE=elasticsearch ES_HOSTS=http://localhost:9200 java -jar zipkin-depen
 会出现processing span from zipkin-span-2020-09_29
       save dependency links to zipkin-dependece-2020-09_29
 然后点击zipkin的dependencies就能看到依赖图了
+~~~~~~~~~~~~~~~~~~~~~~~遇到的问题
+不能同时打开logstash和zipkin，都在zipkin就会捕获不到东西了。
